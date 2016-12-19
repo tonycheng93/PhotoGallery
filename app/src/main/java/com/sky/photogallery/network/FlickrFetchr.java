@@ -31,7 +31,7 @@ import java.util.List;
 public class FlickrFetchr {
 
     private static final String TAG = "FlickrFetchr";
-    private static final String API_KEY = "";
+    private static final String API_KEY = "80211315c42eeec4be259392ac74cdf1";
 
     public byte[] getUrlBytes(String urlSpec) throws IOException {
         URL url = new URL(urlSpec);
